@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(0, 0, 255, 0.301);
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.header{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.myForm{
+    /* border: 5px solid red; */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(50, 94, 79);
+}
+.myForm-1{
+    
+    border: px solid blue;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+    margin: 4px;
+
+}
+
+.fname{
+    background-color: rgba(0, 0, 0, 0.644);
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+}
+
+.lname{
+    background-color: rgba(0, 0, 0, 0.644);
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+}
+
+.age{
+    background-color: rgba(0, 0, 0, 0.644);
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+}
+.email{
+    background-color: rgba(0, 0, 0, 0.644);
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+}
+.email{
+    background-color: rgba(0, 0, 0, 0.644);
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+}
+.phone{
+    background-color: rgba(0, 0, 0, 0.644);
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+}
+.resume{
+    background-color: rgba(0, 0, 0, 0.644);
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+}
+.DOB{
+    background-color: gray;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+}
+#Apply{
+    background-color: rgba(0, 0, 0, 0.644);
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+}
+.submit{
+    background-color: rgba(0, 0, 0, 0.644);
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+}
+.required:after {
+    content:" *";
+    color: red;
+  }
