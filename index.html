@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="./newjs.js"></script>
     <link
      rel="stylesheet"
      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
@@ -20,21 +21,23 @@
          
         <form action="/some_file" class="myForm-1">
           
-            <label for="fname"  class="FirstName"> First Name: <br></label>
-            <input type="text" id="fname" name="fname" placeholder="First name" class="fname FirstName" required>
+            <label for="fname"  class="FirstName"  > First Name: <br></label>
+            <input type="text" id="fname" name="fname" placeholder="First name *" class="fname FirstName" required>
              <br>
 
 
             <label for="lname" class="LastName" >Last Name: <br></label>
-            <input type="text"  name="fname"  placeholder="Last name" class="lname LastName" required>
+            <input type="text"  name="fname"  placeholder="Last name *" class="lname LastName" required>
             <br>
 
             <label for="age" class="Age">Age: <br></label>
-            <input type="number"  name="age"  placeholder="Age" class="age Age" required>
+            <input type="number"  name="age"  placeholder="Age *" class="age Age" required>
             <br>
+             
+            
 
             <label for="Email" class="Email">Email Address: <br></label>
-            <input type="email" name="email"  placeholder="Email" class="email Email" required>
+            <input type="email" name="email"  placeholder="Email *" class="email Email" required>
             <br>
            
 
@@ -60,16 +63,17 @@
           <input type="date" required class="DOB dob">
           <br>
 
-           <label for="Apply" id="Apply">Position Applied:  <br></label>
-           <select id="Apply">
+           <label for="Apply" class="Apply" id="Apply">Position Applied:  <br></label>
+           <select id="Apply" class="Apply">
             <option value="none" selected disabled hidden>Select an Option</option>
-            <option value="Java">Java Developer</option>
-            <option value="net">.Net Developer</option>
-            <option value="project">Project Manager</option>
-            <option value="solution">Solution Archietect</option>
+            <option value="Java Developer">Java Developer</option>
+            <option value=".Net Developer">.Net Developer</option>
+            <option value="project Manager">Project Manager</option>
+            <option value="Solution Architect">Solution Architect</option>
           </select>
           <br>
           <button type="submit" form="nameform" value="Submit" class="submit" onclick="getDetails()">Submit</button>
+
 
         </form>
 

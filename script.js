@@ -17,6 +17,3 @@ function getDetails(){
     alert(s);
 }
 
-function printDetail(newArrKey,newArrValue){
-    
-}

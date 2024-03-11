@@ -54,6 +54,13 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 5px;
 }
+.roll{
+        background-color: rgba(0, 0, 0, 0.644);
+        font-weight: 100;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 5px;
+
+}
 .email{
     background-color: rgba(0, 0, 0, 0.644);
     font-weight: 100;
